@@ -8,12 +8,12 @@
 | **1. 偿债能力**   | `current_ratio_calculator.py`     | 流动比率+速动比率双算             | 行业安全值判断（制造业>2，服务业>1.5）       |  
 |                    | `cash_ratio_stress_test.py`       | 现金比率压力测试                  | 极端情景模拟（60天无收入覆盖能力）+ 健康度四象限 |  
 |                    | `interest_coverage_stress.py`     | 利息保障倍数测试                  | 衰退情景EBIT降30% + 债务风险四级预警          |  
-| **2. 盈利能力**   | `ROCE_calculator.py`              | 资本回报率计算                    | 资本结构校验（股东权益+非流动负债）            |  
+| **2. 盈利能力**   | `roce_calculator.py`              | 资本回报率计算                    | 资本结构校验（股东权益+非流动负债）            |  
 |                    | `dupont_analysis_strategic.py`    | ROE三因素分解                     | 战略类型判断（高利润/高周转/高杠杆企业）       |  
 | **3. 运营效率**   | `inventory_turnover_days.py`      | 存货周转天数分析                  | 供应链健康度评分（A/B/C/D）+ 隐性成本估算     |  
-| **4. 投资估值**   | `ROI_RI_calculator.py`            | ROI+RI双指标联动分析              | 双指标矛盾提示（如“高ROI但低RI”）             |  
+| **4. 投资估值**   | `roi_ri_calculator.py`            | ROI+RI双指标联动分析              | 双指标矛盾提示（如“高ROI但低RI”）             |  
 |                    | `pe_valuation_safety_margin.py`   | 市盈率安全边际分析                | 估值驱动因素拆分（增长预期vs风险溢价）         |  
-|                    | `EVA_economic_value_added.py`     | EVA价值创造评估                   | 价值创造分级（创造者/毁灭者/平庸者）           |  
+|                    | `eva_economic_value_added.py`     | EVA价值创造评估                   | 价值创造分级（创造者/毁灭者/平庸者）           |  
 
 ## 🚀 3步上手使用   
 ### 第1步：下载代码  
