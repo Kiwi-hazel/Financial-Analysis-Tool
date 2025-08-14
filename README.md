@@ -2,6 +2,7 @@
 ## 财务分析自动化工具包 
 **一句话定位**：用Python实现从“短期偿债”到“价值创造”的全流程财务分析，内置战略解读和压力测试，零基础3分钟出结果。  
 
+
 ## ✨ 核心工具清单（4大分析模块）  
 | **分析模块**       | 工具名称                          | 核心功能                          | **创新点**（区别于通用工具）                |  
 |--------------------|-----------------------------------|-----------------------------------|---------------------------------------------|  
@@ -14,6 +15,7 @@
 | **4. 投资估值**   | `roi_ri_calculator.py`            | ROI+RI双指标联动分析              | 双指标矛盾提示（如“高ROI但低RI”）             |  
 |                    | `pe_valuation_safety_margin.py`   | 市盈率安全边际分析                | 估值驱动因素拆分（增长预期vs风险溢价）         |  
 |                    | `eva_economic_value_added.py`     | EVA价值创造评估                   | 价值创造分级（创造者/毁灭者/平庸者）           |  
+
 
 ## 🚀 3步上手使用   
 ### 第1步：下载代码  
@@ -30,6 +32,7 @@ pip install matplotlib  # 用于ROCE计算器的行业对比图
 cd Financial-Analysis-Tool  
 python dupont_analysis_strategic.py   
 ```  
+
 
 ## 📊 案例：制造业企业综合分析  
 1. **短期偿债能力**  
@@ -51,7 +54,11 @@ python dupont_analysis_strategic.py
    - 运营端：用` inventory_turnover_days.py`优化存货周转（65天→45天）  
    - 融资端：发行300万3年期债券替换短期借款，降低利息费用（8%→5%）  
 
- 
+## 📸 工具运行示例（杜邦分析）  
+以下是 `dupont_analysis_strategic.py` 的实际运行界面，支持ROE三因素分解和战略类型判断：  
+![杜邦分析工具运行截图](https://github.com/Kiwi-hazel/Financial-Analysis-Tool/blob/main/screenshots/dupont_screenshot.png)  
+
+ 
 ## 🔍 关于项目  
 **作者**：Kiwi-hazel  
 **定位**：财务+Python复合能力实践，通过自动化工具替代Excel手动计算，提升财务分析效率（3分钟完成传统1小时工作）  
